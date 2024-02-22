@@ -1,17 +1,18 @@
 import React from 'react';
 import logo from "../../images/spiro.svg";
 import "./navbar.css";
+import App from "../../App";
 
 const Navbar = () => {
   return (
     <div className="navbar">
           <div className="navbar-left">
             <div className="navbar-logo">
-              <a href="">
+              <a href={App}>
                 <img src={logo} alt="logo" />
               </a>
 
-              <a href="">
+              <a href={App}>
                 <h1>React Navigation</h1>
               </a>
             </div>
