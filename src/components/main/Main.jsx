@@ -20,14 +20,14 @@ const Main = () => {
             <button className="main-button1">
               <a
                 href="https://reactnavigation.org/docs/getting-started/"
-                target="_blank"
+                target="_blank"rel="noreferrer"
               >
                 Read Docs
               </a>
             </button>
             <button className="main-button2">
               <a
-                href="https://github.com/react-navigation/react-navigation/tree/main/example"
+                href="https://github.com/react-navigation/react-navigation/tree/main/example" rel="noreferrer"
                 target="_blank"
               >
                 Try It
@@ -48,7 +48,7 @@ const Main = () => {
           💡Coming from an older version? Check out our
           <a
             href="https://reactnavigation.org/docs/migration-guides"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             migration guide
           </a>

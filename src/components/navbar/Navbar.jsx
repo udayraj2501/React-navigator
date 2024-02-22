@@ -19,14 +19,14 @@ const Navbar = () => {
             <div className="navbar-contain">
               <a
                 href="https://reactnavigation.org/docs/getting-started"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 Docs
               </a>
-              <a href="https://reactnavigation.org/blog" target="_blank">
+              <a href="https://reactnavigation.org/blog" target="_blank" rel="noreferrer">
                 Blog
               </a>
-              <a href="https://reactnavigation.org/help" target="_blank">
+              <a href="https://reactnavigation.org/help" target="_blank" rel="noreferrer">
                 Help
               </a>
 
@@ -38,42 +38,42 @@ const Navbar = () => {
                   <div className="explore-versions">
                     <a
                       href="https://reactnavigation.org/docs/7.x/getting-started"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="dropdown-list"
                     >
                       7.x
                     </a>
                     <a
                       href="https://reactnavigation.org/docs/getting-started"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="dropdown-list"
                     >
                       6.x
                     </a>
                     <a
                       href="https://reactnavigation.org/docs/5.x/getting-started"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="dropdown-list"
                     >
                       5.x
                     </a>
                     <a
                       href="https://reactnavigation.org/docs/4.x/getting-started"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="dropdown-list"
                     >
                       4.x
                     </a>
                     <a
                       href="https://reactnavigation.org/docs/3.x/getting-started"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="dropdown-list"
                     >
                       3.x
                     </a>
                     <a
                       href="https://reactnavigation.org/docs/2.x/getting-started"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="dropdown-list"
                     >
                       2.x
@@ -81,7 +81,7 @@ const Navbar = () => {
 
                     <a
                       href="https://reactnavigation.org/docs/1.x/getting-started"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="dropdown-list"
                     >
                       1.x
@@ -94,10 +94,10 @@ const Navbar = () => {
 
           <div className="navbar-right">
             <div className="github-link">
-              <a href="https://github.com/react-navigation" target="_blank">
+              <a href="https://github.com/react-navigation" target="_blank" rel="noreferrer">
                 GitHub
               </a>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <i class="fa-solid fa-arrow-up-right-from-square" rel="noreferrer"></i>
             </div>
 
             <div className="theme-mode">

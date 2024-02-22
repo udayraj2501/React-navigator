@@ -23,21 +23,22 @@ const Community = () => {
     <section className="community">
             <p>
               React Navigation is built by
-              <a href="https://expo.dev/" target="_blank">
+              <a href="https://expo.dev/" target="_blank" rel="noreferrer">
                 Expo
               </a>
               ,
-              <a href="https://swmansion.com/" target="_blank">
+              <a href="https://swmansion.com/" target="_blank" rel="noreferrer">
                 Sotware Mansion
               </a>
               and
-              <a href="https://www.callstack.com/" target="_blank">
+              <a href="https://www.callstack.com/" target="_blank" rel="noreferrer">
                 ClassStack
               </a>
               with contributions from the
               <a
                 href="https://github.com/react-navigation/react-navigation/graphs/contributors"
                 target="_blank"
+                rel="noreferrer"
               >
                 community
               </a>
@@ -45,6 +46,7 @@ const Community = () => {
               <a
                 href="https://github.com/sponsors/react-navigation"
                 target="_blank"
+                rel="noreferrer"
               >
                 sponsers
               </a>
@@ -75,6 +77,7 @@ const Community = () => {
               <a
                 href="https://github.com/sponsors/react-navigation"
                 target="_blank"
+                rel="noreferrer"
               >
                 {" "}
                 supporting the project by sponsoring it 💜
