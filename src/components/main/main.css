@@ -1,0 +1,148 @@
+
+.main{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    align-items: center;
+    background:linear-gradient(#f7f7ff,#d5d6f5);
+    width: 100%;
+    height:120vh;
+    padding:100px 0px 100px 0px;
+  }
+  
+  .main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .main-right img,
+  .main-left img {
+    height: 450px;
+  }
+  
+  .main-middle {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    position: relative;
+    width: 600px;
+    height: 350px;
+    border: 8px solid #414360;
+    border-radius: 15px;
+    margin: 0 20px;
+    overflow: hidden; /* Ensure that the pseudo-element doesn't overflow */
+  }
+  
+  .main-middle h1 {
+    font-size: 54px;
+    position: absolute;
+    top: 50px;
+    letter-spacing: 1px;
+    font-weight: 999;
+    color: #414360;
+    margin: 10px;
+  }
+  
+  .main-middle p{
+    position: absolute;
+    top: 45%;
+    font-size:20px;
+    color:#414360;
+    font-weight: bold;
+  }
+  
+  .main-shadow{
+    background: #414360;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    height: 1rem;
+    opacity: .5;
+    position: absolute;
+    bottom:42px;
+    width: 570px;
+  }
+  
+  .main-buttons {
+    position: absolute;
+    top: 60%;
+  }
+  
+  .main-buttons button {
+    height: 60px;
+    width: 150px;
+    margin: 15px;
+    cursor:pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 4px solid #414360;
+    font-weight: bolder;
+  }
+  
+  .main-buttons button a{
+    text-decoration:none;
+  }
+  
+  .main-button1 a{
+    color: #414360;
+  }
+  
+  .main-button2 {
+    background-color: #414360;
+  }
+  
+  .main-button2 a{
+    color:white;
+  }
+  
+  .main-buttons button:hover {
+    background-color: rgb(205, 189, 255);
+    border-color:rgb(205, 189, 255);
+    transition: all 0.3s ease;
+    color:white;  
+  }
+  
+  .main-middle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../../images/spiro.svg");
+    background-size: 300px;
+    background-position: center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    opacity: 0.3; 
+    z-index: -1;
+  }
+  
+  .check-guide{
+    position:absolute;
+    bottom:100px;
+    background-color: #F7F7FF;
+    border-radius:5px;
+    color:#414360;
+    font-weight: 300;
+    
+  }
+  
+  .check-guide p{
+    margin: 18px;
+  }
+  
+  .check-guide p a{
+    color:#414360;
+    text-decoration: none;
+    font-size:17px;
+    font-weight: 500;
+    margin-left:5px;
+  }
+  
+  .check-guide p a:hover{
+    text-decoration: underline;
+  }
+  
