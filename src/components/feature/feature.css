@@ -1,4 +1,5 @@
 .features-section{
+    width:100%;
     display:flex;
     flex-wrap: wrap;
     background-color: #25292E;
@@ -7,7 +8,6 @@
  .feature{
    width:45%;
    display:flex;
-   /* align-items:center; */
    justify-content: center;
    flex-direction: column;
    padding:20px;
@@ -31,4 +31,23 @@
    font-size:20px;
    margin-bottom:10px;
    font-weight: 300;
+ }
+
+ @media only screen and (max-width:600px){
+
+  .feature{
+    width:100%;
+    padding:5px;
+    margin:50px 0px 25px 50px;
+    
+  }
+
+  .feature h1{
+    font-size:27px;
+  }
+
+  .feature p{
+    font-size:21px;
+    font-weight: 200;
+  }
  }

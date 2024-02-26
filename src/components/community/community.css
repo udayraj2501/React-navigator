@@ -11,15 +11,24 @@
   
   .community p{
     font-size:17px;
+    text-align: center;
     color:#414360;
   }
   
   .community p a{
     font-weight: bold;
+    text-align: center;
     text-decoration: none;
     color:#414360;
     margin-left:5px;
     margin-right:3px;
+  }
+
+  .community-images{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap:wrap;
   }
   
   .community-images img{
@@ -30,4 +39,20 @@
   
   .community p a:hover{
     text-decoration:underline;
+  }
+
+  @media only screen and (max-width:600px){
+
+    .community{
+      height:550px;
+    }
+
+    .community p{
+      margin: 0 20px 0 20px;
+    }
+
+    .community-images{
+      margin:10px 25px 10px 25px;
+
+    }
   }

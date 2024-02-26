@@ -11,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: center;
+    overflow:hidden;
     box-shadow: 3px 3px 11px -3px rgba(0, 0, 0, 0.53);
     -webkit-box-shadow: 3px 3px 11px -3px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: 3px 3px 11px -3px rgba(0, 0, 0, 0.53);
@@ -183,4 +184,42 @@
   .search-bar i {
     margin-right: 5px;
     margin-left: 5px;
+  }
+
+  @media only screen and (max-width:768px){
+
+    .navbar-contain{
+      display:none;
+    }
+
+    .dropdown-menu{
+      display:none;
+    }
+
+    .github-link{
+      display:none;
+    }
+
+
+    .search-bar input{
+      display:none;
+    }
+
+    .search-bar{
+      display:flex;
+      align-items:center;
+      justify-content: center;
+      width:30px;
+      height:30px;
+      border-radius:50%;
+      border: none;
+    }
+    
+    .fa-solid{
+      font-size:16px;
+    }
+
+    
+
+
   }
